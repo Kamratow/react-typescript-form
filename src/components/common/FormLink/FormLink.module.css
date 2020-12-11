@@ -1,0 +1,11 @@
+.FormLinkWrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.FormLinkDescription {
+    font-weight: 600;
+    display: block;
+    margin-right: 10px;
+}

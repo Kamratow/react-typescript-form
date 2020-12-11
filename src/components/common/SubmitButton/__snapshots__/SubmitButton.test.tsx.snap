@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubmitButton should render properly with default props 1`] = `
+<div
+  className="SubmitButtonWrapper"
+>
+  <button
+    className="SubmitButton"
+    disabled={false}
+    type="submit"
+  >
+    test button label
+  </button>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormLink should render properly with default props 1`] = `
+<div
+  className="FormLinkWrapper"
+>
+  <span
+    className="FormLinkDescription"
+  >
+    test description
+  </span>
+  <div>
+    <Link
+      to="/testpath"
+    >
+      test link text
+    </Link>
+  </div>
+</div>
+`;

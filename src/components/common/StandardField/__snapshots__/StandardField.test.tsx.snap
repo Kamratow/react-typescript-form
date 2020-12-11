@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StandardField should not render error if input has not been touched 1`] = `
+<div
+  className="StandardFieldWrapper"
+>
+  <label
+    className="StandardFieldLabel"
+    htmlFor="testId"
+  >
+    testLabel
+  </label>
+  <input
+    className="StandardFieldInput StandardFieldInputError"
+    id="testId"
+    onChange={[Function]}
+    type="text"
+    value="test value"
+  />
+</div>
+`;
+
+exports[`StandardField should render error if input has been touched 1`] = `
+<div
+  className="StandardFieldWrapper"
+>
+  <label
+    className="StandardFieldLabel"
+    htmlFor="testId"
+  >
+    testLabel
+  </label>
+  <input
+    className="StandardFieldInput StandardFieldInputError"
+    id="testId"
+    onChange={[Function]}
+    type="text"
+    value="test value"
+  />
+  <p
+    className="StandardFieldErrorMessage"
+    id="testIdErrorMessage"
+  >
+    test error message
+  </p>
+</div>
+`;
+
+exports[`StandardField should render properly with default props 1`] = `
+<div
+  className="StandardFieldWrapper"
+>
+  <label
+    className="StandardFieldLabel"
+    htmlFor="testId"
+  >
+    testLabel
+  </label>
+  <input
+    className="StandardFieldInput"
+    id="testId"
+    onChange={[Function]}
+    type="text"
+    value="test value"
+  />
+</div>
+`;

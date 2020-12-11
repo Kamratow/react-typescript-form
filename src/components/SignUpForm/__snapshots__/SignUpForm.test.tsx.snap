@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUpForm should render with proper input configuration 1`] = `
+<Fragment>
+  <Header
+    headerContent="Sign up"
+  />
+  <Form>
+    <StandardField
+      changeHandler={[Function]}
+      errorMessage=""
+      id="emailInput"
+      key="emailInput"
+      label="E-mail address"
+      type="email"
+      value=""
+    />
+    <StandardField
+      changeHandler={[Function]}
+      errorMessage=""
+      id="fullNameInput"
+      key="fullNameInput"
+      label="Full name"
+      type="text"
+      value=""
+    />
+    <StandardField
+      changeHandler={[Function]}
+      errorMessage=""
+      id="passwordInput"
+      key="passwordInput"
+      label="Password"
+      type="password"
+      value=""
+    />
+    <StandardField
+      changeHandler={[Function]}
+      errorMessage=""
+      id="confirmPasswordInput"
+      key="confirmPasswordInput"
+      label="Confirm your password"
+      type="password"
+      value=""
+    />
+    <SubmitButton
+      buttonLabel="Continue"
+      disabled={true}
+    />
+  </Form>
+  <FormLink
+    description="Already using our app?"
+    linkPath="/signin"
+    linkText="Click here to sign in"
+  />
+</Fragment>
+`;

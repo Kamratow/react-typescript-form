@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render properly with default props 1`] = `
+<form
+  className="FormContainer"
+  onSubmit={[Function]}
+>
+  <StandardField
+    changeHandler={[MockFunction]}
+    errorMessage=""
+    id="testId"
+    label="testLabel"
+    type="text"
+    value="test"
+  />
+  <SubmitButton
+    buttonLabel="test button label"
+    disabled={false}
+  />
+</form>
+`;

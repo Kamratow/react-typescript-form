@@ -1,0 +1,42 @@
+.StandardFieldWrapper {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.StandardFieldLabel {
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.StandardFieldInput {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: #000;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+
+.StandardFieldInput:focus {
+    outline: none;
+    box-shadow: 0 0 6pt #008000;
+    border-color: #008000;
+}
+
+.StandardFieldInputError {
+    border-color: rgb(201, 22, 22);
+    margin-bottom: 0;
+}
+
+.StandardFieldErrorMessage {
+    font-size: 16px;
+    color: rgb(201, 22, 22);
+    margin-top: 3px;
+    margin-bottom: 0;
+}
